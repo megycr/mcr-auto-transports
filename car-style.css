@@ -1,0 +1,175 @@
+body {
+  background: linear-gradient(135deg, #f7f3f0 0%, #e3e0ff 100%);
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  color: #2d2d2d;
+}
+.logo {
+  color: #fff;
+  background: linear-gradient(90deg, #23232e 60%, #bdbdbd 100%);
+  padding: 8px 22px;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  display: inline-block;
+  margin-right: 12px;
+  border: 2px solid #fff;
+  text-shadow: 1px 1px 4px #222, 0 0 8px #000;
+  font-family: 'Playfair Display', serif;
+}
+.header {
+  background: #23232e;
+  color: #fff;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  box-shadow: 0 4px 16px rgba(30,58,92,0.10);
+  padding-bottom: 0;
+  position: relative;
+}
+.header nav {
+  margin-top: 10px;
+}
+.header nav a {
+  color: #fff;
+  margin: 0 18px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Montserrat', Arial, sans-serif;
+  transition: color 0.2s;
+  font-size: 1.1em;
+}
+.header nav a:hover {
+  color: #eab676;
+}
+.hero {
+  background: linear-gradient(120deg, #f7e7d7 60%, #e3e0ff 100%);
+  border-radius: 22px;
+  box-shadow: 0 4px 24px rgba(60,40,80,0.08);
+  margin-bottom: 36px;
+  text-align: center;
+  padding: 56px 28px 40px 28px;
+  font-family: 'Playfair Display', serif;
+}
+.cta-btn {
+  background: #23232e;
+  color: #fff;
+  border-radius: 30px;
+  padding: 16px 40px;
+  font-size: 1.15em;
+  margin-top: 32px;
+  box-shadow: 0 2px 8px rgba(30,58,92,0.10);
+  transition: background 0.2s, color 0.2s;
+  font-family: 'Montserrat', Arial, sans-serif;
+  border: none;
+}
+.cta-btn:hover {
+  background: #eab676;
+  color: #23232e;
+}
+.menu-container, .services, .about, .contact, .gallery {
+  background: #fffdfa;
+  border-radius: 22px;
+  box-shadow: 0 8px 32px rgba(60,40,80,0.10);
+  padding: 40px 28px;
+  margin-bottom: 36px;
+}
+.services ul {
+  list-style: disc inside;
+  padding-left: 0;
+}
+.services li {
+  margin: 12px 0;
+  font-size: 1.13em;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.contact input, .contact button {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1.05em;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+.contact button {
+  background: #23232e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+}
+.contact button:hover {
+  background: #eab676;
+  color: #23232e;
+}
+footer {
+  background: #23232e;
+  color: #fff;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  box-shadow: 0 -4px 16px rgba(30,58,92,0.10);
+  margin-top: 44px;
+  padding: 22px 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+.family-owned {
+  color: #bdbdbd;
+  font-size: 1.15em;
+  margin: 0 0 10px 0;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-family: 'Playfair Display', serif;
+}
+.gallery {
+  margin: 40px auto;
+  max-width: 700px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(30,58,92,0.07);
+  padding: 30px 20px;
+  text-align: center;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 22px;
+  margin-top: 22px;
+}
+.gallery-grid img {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.13);
+  border: 2px solid #23232e;
+  background: #eee;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.gallery-grid img:hover {
+  transform: scale(1.06) rotate(-2deg);
+  box-shadow: 0 8px 32px rgba(30,58,92,0.18);
+  border-color: #eab676;
+}
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+}
+h1 {
+  font-size: 2.9em;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 2.1em;
+  margin-bottom: 12px;
+}
+h3 {
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+ul {
+  list-style: disc inside;
+  padding-left: 0;
+}
